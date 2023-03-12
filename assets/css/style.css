@@ -1,2 +1,47 @@
-h1 {font-weight: 700;
-     color:red;}
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Xanh+Mono:ital@1&display=swap');
+
+body {
+    font-family: "Xanh Mono", cursive;
+  
+} 
+
+/* header styling */
+
+h1 {
+    font-family: "BhuTuka Expanded One", monospace;
+    font-size: 120%;
+    margin-bottom: 5px;
+    margin-left: 12px;
+
+}
+
+nav {
+     margin: 0 auto;
+     border-bottom: 2px inset rgb(166, 159, 159);
+}
+
+nav ul {
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+}
+nav li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    margin-right: 10px;
+    
+}
+nav a:hover {
+    border: 1px solid rgb(216, 194, 177);
+    background-color: rgb(218, 202, 184);
+}
+
+.active {
+    border: 1px solid rgb(216, 194, 177);
+    background-color: rgb(218, 202, 184);
+    
+}
