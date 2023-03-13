@@ -207,6 +207,15 @@ footer a {
     transform:rotateY(180deg);
 }
 
+.flip-box-back a {
+    color:rgb(138, 103, 48);
+    text-decoration: none;
+}
+
+.flip-box-back a:hover {
+    text-decoration: underline;
+}
+
 /* for medium and large screen sizes from 850px wide and up */
 
 @media screen and (min-width: 650px) {
