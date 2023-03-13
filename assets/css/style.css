@@ -122,9 +122,32 @@ b {
 .container-text a {
     text-decoration: none;
 }
+
+/* footer */
+
+footer {
+    height: 50px;
+    width: 100%;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10%;
+
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    font-size: 200%;
+}
 /* for medium and large screen sizes from 850px wide and up */
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 650px) {
        
        .container-text {
         position: relative;
