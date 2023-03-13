@@ -46,6 +46,7 @@ nav a:hover {
 .active {
     border: 1px solid rgb(218, 202, 177);
     background-color: rgb(218, 202, 177);
+    border-radius: 15%;
 }
 /* hero image section */
 
