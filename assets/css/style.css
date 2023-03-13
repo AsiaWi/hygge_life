@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+
+ /*font used */
+
 body {
     font-family: "Montserrat", sans-serif;
   
 } 
+
+h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 130%;
+    text-align: center;
+}
 
 /* header styling */
 
@@ -20,6 +29,8 @@ header a {
     text-decoration: none;
     color:black;
 }
+
+/*navigation links */
 
 nav {
      margin: 0 auto;
@@ -68,7 +79,7 @@ nav a:hover {
 
 }
 
-.hero-text {
+.hero-text-background {
     height: 230px;
     width: 230px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -96,16 +107,16 @@ em {
 
 /* what is hygge section */
 
-h2 {
-    font-family: "montserrat", sans-serif;
-    font-size: 130%;
-    text-align: center;
-}
-
 .intro-outer {
     height: 250px;
     width: 100%;
 }
+
+b {
+    letter-spacing: 2px;
+}
+
+ /* used for what is hygge and about sections */
 
 .container {
     background-color: rgba(218, 202, 177, 0.3);
@@ -120,16 +131,12 @@ h2 {
     top: 8%;
 }
 
-
-b {
-    letter-spacing: 2px;
-}
-
 /* About section */
 
 .container-text a {
     text-decoration: none;
 }
+
 
 /* footer */
 
@@ -153,6 +160,8 @@ footer a {
     color: black;
     font-size: 200%;
 }
+
+
 /* for medium and large screen sizes from 850px wide and up */
 
 @media screen and (min-width: 650px) {
