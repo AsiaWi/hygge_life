@@ -164,13 +164,16 @@ footer a {
 /* tips page flip box styling */
 
 .flip-box {
-    height: 200px;
-    width: 20%;
-    display: inline-block;
+    height: 300px;
+    width: 90%;
+    margin: 5%;
+   /* display: inline-block;
+    padding-right: 5px;*/
     
+
 }
 
-flip-box-inner {
+.flip-box-inner {
     height: 100%;
     width: 100%;
     position: relative;
@@ -178,6 +181,8 @@ flip-box-inner {
     text-align: center;
     color: black;
     transform-style: preserve-3d ;
+    
+
 }
 
 .flip-box-front, .flip-box-back {
@@ -186,7 +191,10 @@ flip-box-inner {
     position: absolute;
     position: center center;
     backface-visibility: hidden;
-    
+}
+.flip-box-front img {
+    width:100%;
+    height:280px;
 }
 
 .flip-box:hover .flip-box-inner {
@@ -196,7 +204,7 @@ flip-box-inner {
 
 .flip-box-back {
     background-color: rgba(216, 194, 177, 0.4);
-    transform: rotateY(180deg);
+    transform:rotateY(180deg);
 }
 
 /* for medium and large screen sizes from 850px wide and up */
