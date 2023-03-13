@@ -161,6 +161,37 @@ footer a {
     font-size: 200%;
 }
 
+/* tips page flip box styling */
+
+.flip-box {
+    height: 200px;
+    width: 20%;
+}
+
+flip-box-inner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.flip-box-front, .flip-box-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    position: center center;
+    backface-visibility: hidden;
+    
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.flip-box-back {
+    background-color: rgba(216, 194, 177, 0.4);
+    transform:rotateY(180deg);
+}
 
 /* for medium and large screen sizes from 850px wide and up */
 
