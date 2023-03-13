@@ -18,6 +18,7 @@ h1 {
 
 nav {
      margin: 0 auto;
+     padding-bottom: 3px;
      border-bottom: 2px inset rgb(166, 159, 159);
 }
 
@@ -37,8 +38,9 @@ nav a {
     
 }
 nav a:hover {
-    border: 1px solid rgb(216, 194, 177);
-    background-color: rgb(218, 202, 177);
+    border: 2px solid rgba(216, 194, 177, 0.4);
+    background-color: rgba(218, 202, 177, 0.2);
+    border-radius: 15%;
 }
 
 .active {
@@ -103,7 +105,6 @@ h2 {
     background-color: rgba(218, 202, 177, 0.3);
     height: 200px;
     width: 100%;
-    border-radius: 2.5%;
     text-align: center;
     color: black; 
 }
