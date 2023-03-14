@@ -20,7 +20,7 @@ h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 160%;
     letter-spacing: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     margin-left: 12px;
 
 }
@@ -60,14 +60,15 @@ nav a:hover {
 }
 
 .active {
-    border: 1px solid rgb(218, 202, 177);
-    background-color: rgb(218, 202, 177);
+    border: 1px solid rgba(218, 202, 177, 0.2);
+    background-color: rgba(218, 202, 177, 0.4);
     border-radius: 15%;
 }
 /* hero image section */
 
 .hero-image {
     background-image: url("../images/hygge.jpg");
+    background-attachment: fixed;
     background-position: right 35% top 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -90,7 +91,7 @@ nav a:hover {
     top: 40%;
     left: 10%;
 }
-
+  /* text inside circle div on hero image */
 .text {
     position: relative;
     top: 36%;
@@ -105,7 +106,7 @@ em {
 }
 
 
-/* what is hygge section */
+/* what is hygge section below hero image*/
 
 .intro-outer {
     height: 250px;
@@ -145,43 +146,43 @@ b {
 
 .flip-box {
     height: 330px;
-    width: 90%;
-    margin: 5% 0;
-    
+    width: 100%;
+    margin: 10% auto;
 }
 
-.flip-box-inner {
+
+.flip-box-inner {                              
     height: 100%;
     width: 100%;
     position: relative;
-    transition: 0.6s; 
+    transition: 1.4s; 
     text-align: center;
-    color: black;
     transform-style: preserve-3d;
-    
+   
+}
 
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+    cursor: pointer;
 }
 
 .flip-box-front, .flip-box-back {
     width: 100%;
     height: 100%;
     position: absolute;
-    position: center center;
+    -webkit-backface-visibility: hidden; /*Safari*/
     backface-visibility: hidden;
 }
 .flip-box-front img {
     width:100%;
-    height: 330px;
+    height: 100%;
 }
 
-.flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-    cursor: pointer;
-}
+
 
 .flip-box-back {
     background-color: rgba(216, 194, 177, 0.4);
-    transform: rotateY(180deg);
+    transform: rotateX(180deg);
 }
 
 .flip-box-back a {
@@ -203,18 +204,21 @@ b {
 footer {
     height: 50px;
     width: 100%;
-}
+    margin: 0 auto;
+    border-top: 2px inset rgb(166, 159, 159);
+   }
+
 
 footer li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 30px;
-    padding-left: 15px;
-
+    padding-right: 5px;
 }
 
 footer ul {
     text-align: center;
+    padding: 0;
+    margin-top: 8px;
 }
 
 footer a {
