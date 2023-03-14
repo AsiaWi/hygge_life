@@ -68,7 +68,7 @@ nav a:hover {
 
 .hero-image {
     background-image: url("../images/hygge.jpg");
-    background-position: 60%;
+    background-position: right 35% top 20%;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -76,7 +76,7 @@ nav a:hover {
     height: 500px;
     margin: 0;
     padding: 0;
-
+    background-color:rgba(255, 255, 255, 0.5);
 }
 
 .hero-text-background {
@@ -157,7 +157,7 @@ b {
     transition: 0.6s; 
     text-align: center;
     color: black;
-    transform-style: preserve-3d ;
+    transform-style: preserve-3d;
     
 
 }
@@ -181,7 +181,7 @@ b {
 
 .flip-box-back {
     background-color: rgba(216, 194, 177, 0.4);
-    transform:rotateY(180deg);
+    transform: rotateY(180deg);
 }
 
 .flip-box-back a {
@@ -225,7 +225,7 @@ footer a {
 
 /* for medium and large screen sizes from 850px wide and up */
 
-@media screen and (min-width: 650px) {
+/*@media screen and (min-width: 650px) {
        
        .container-text {
         position: relative;
@@ -257,3 +257,4 @@ footer a {
         height: 400px;
     }
 }
+*/
