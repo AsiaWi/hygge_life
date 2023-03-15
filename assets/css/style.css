@@ -146,8 +146,8 @@ b {
 
 .flip-box {
     height: 330px;
-    width: 100%;
-    margin: 10% auto;
+    width: 70%;
+    margin: 5% 15%;
 }
 
 
@@ -196,8 +196,17 @@ b {
 
 /* contact page */
 
-
-
+ 
+.contact-form-background {
+    background-image: url(../images/image-from-rawpixel-id-916602-jpeg.jpg);
+    background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    opacity: 50%;
+}
+ 
 
 /* footer */
 
@@ -206,13 +215,14 @@ footer {
     width: 100%;
     margin: 0 auto;
     border-top: 2px inset rgb(166, 159, 159);
-   }
+ }
 
 
 footer li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 5px;
+    margin: 0 auto;
+    padding: 0 5%;
 }
 
 footer ul {
@@ -222,9 +232,11 @@ footer ul {
 }
 
 footer a {
-    color: black;
+    color: rgb(32, 30, 30);
     font-size: 200%;
 }
+
+
 
 
 /* for medium and large screen sizes from 850px wide and up */
