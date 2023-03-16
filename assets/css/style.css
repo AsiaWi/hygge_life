@@ -68,7 +68,7 @@ nav a:hover {
 
 .hero-image {
     background-image: url("../images/hygge.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: right 35% top 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,13 +123,12 @@ b {
     background-color: rgba(218, 202, 177, 0.3);
     height: 200px;
     width: 100%;
-    text-align: center;
-    color: black; 
 }
 
 .container-text {
+    text-align: center;
     position: relative;
-    top: 8%;
+    top: 5%;
 }
 
 /* About section */
@@ -145,9 +144,12 @@ b {
 /* tips page flip box styling */
 
 .flip-box {
-    height: 330px;
-    width: 70%;
+    background-color: transparent;
+    height: 350px;
+    width: 100%;
     margin: 5% 15%;
+    margin-left: 0%;
+
 }
 
 
@@ -172,7 +174,9 @@ b {
     position: absolute;
     -webkit-backface-visibility: hidden; /*Safari*/
     backface-visibility: hidden;
+    text-align: center;
 }
+
 .flip-box-front img {
     width:100%;
     height: 100%;
@@ -235,7 +239,6 @@ legend h2 {
 
 textarea {
     width: 80%;
-    text-align: center;
 }
 
 
@@ -246,8 +249,8 @@ footer {
     width: 100%;
     margin: 0 auto;
     border-top: 2px inset rgb(166, 159, 159);
- }
-
+    
+}
 
 footer li {
     list-style-type: none;
@@ -270,38 +273,26 @@ footer a {
 
 
 
-/* for medium and large screen sizes from 850px wide and up */
+/* for medium and large screen sizes from 650px wide and up */
 
-/*@media screen and (min-width: 650px) {
-       
-       .container-text {
-        position: relative;
-        top: 30%;
-     }
-
-    .flip-box {
-        height: 400px;
-        width: 28%;
-        display: inline-block;
-        margin: 5% 0;
-    }
-
-    .flip-box-inner {
-        height: 100%;
-        width: 100%;
-        position: relative;
-        text-align: center;
-        transition: 0.6s; 
-        color: black;
-        transform-style: preserve-3d ;
-    }
+@media screen and (min-width: 650px) {
+.flip-box {
+    background-color: transparent;
+    height: 400px;
+    width: 30%;
+    margin: 35% 1%;
+    display: inline-block;
     
-    
-    
-
-    .flip-box-front img {
-        width: 100%;
-        height: 400px;
-    }
 }
-*/
+
+}
+
+/* for small to medium screen sizes from 450px wide and up */
+
+@media screen and (min-width: 450px) {
+
+    .container-text {
+        text-align: center;
+        position: relative;
+        top: 20%;
+}
