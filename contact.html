@@ -31,26 +31,29 @@
           </ul>
       </nav>
   </header>
+  <!-- contact form -->
   <section class="contact-form-background">
-    <fieldset>
-        <legend><h2>Contact us <i class="fa-solid fa-envelope"></i></h2></legend>
-    
     <form action="https://www.fakeaddress.com" method="POST">
-        
-        <input type="text" name="first-name" placeholder="First Name" required>
-           </hr>
-           <input type="text" name="last-name" placeholder="Last Name" required>
-           </hr>
-        <input type="email" name="email" placeholder="Your e-mail" required>
-           </hr>
-        <input type="text" name="phone-number" placeholder="Telephone number">
-           </hr>  
-        <textarea name="message" placeholder="Type your message here..." rows="6" col="50" required></textarea>
-        </hr>
+        <fieldset>
+        <legend><h2>Contact us <i class="fa-solid fa-envelope"></i></h2></legend>
+        <label for="f-name">First name:</label>
+        <br>
+        <input type="text" name="first-name" placeholder="First Name" id="f-name" required>
+           <br>
+           <label for="l-name">Last name:</label>
+           <br>
+           <input type="text" name="last-name" placeholder="Last Name" id="l-name" required>
+           <br>
+           <label for="e-mail">Email address:</label>
+           <br>
+        <input type="email" name="email" placeholder="Your e-mail" required id="e-mail">
+           <br><br>
+        <textarea name="message" placeholder="Type your message here..." rows="20" cols="21" required></textarea>
+        <br><br>
         <input type="submit" value="SEND MESSAGE" name="submit">
-        <input type="reset">
+        <input type="reset" value="RESET FORM">
+    </fieldset>
     </form>
-</fieldset>
   </section>
     
     <!-- footer -->

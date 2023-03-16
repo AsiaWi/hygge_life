@@ -201,9 +201,9 @@ b {
 /* contact page */
 
  
-.contact-form-background {
+/*.contact-form-background {
     background-image: url(../images/image-from-rawpixel-id-916602-jpeg.jpg);
-    background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load */
+    background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -228,7 +228,7 @@ legend h2 {
 }
 
  input {
-     width: 80%;
+     width: 60%;
      height: 40px;
      position: relative;
      left: 15%;
@@ -237,9 +237,53 @@ legend h2 {
 
 }
 
-textarea {
-    width: 80%;
+
+
+*/
+
+.contact-form-background {
+    background-image: url(../images/image-from-rawpixel-id-916602-jpeg.jpg);
+    background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load */
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;  
 }
+
+  
+input[type=text],
+input[type=email],
+textarea           {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 10px rgba(216, 194, 177, 0.4);
+    box-sizing: border-box;
+    border: none;
+}
+
+
+input[type=submit],
+input[type=reset] {
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid rgb(138, 103, 48);
+    background-color: rgba(216, 194, 177, 0.4);
+}
+
+fieldset {
+    width: 90%;
+    margin: 10% auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px rgba(238, 233, 235, 0.966);
+    padding: 20px;
+    border: 2px solid white;
+    
+}
+ 
+
 
 
 /* footer */
@@ -273,16 +317,21 @@ footer a {
 
 
 
-/* for medium and large screen sizes from 650px wide and up */
+/* for medium and large screen sizes from 850px wide and up */
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 850px) {
+
 .flip-box {
     background-color: transparent;
     height: 400px;
     width: 30%;
-    margin: 35% 1%;
+    margin: 5% 1%;
     display: inline-block;
+}
     
+    fieldset {
+        width: 50%;
+
 }
 
 }
@@ -295,4 +344,5 @@ footer a {
         text-align: center;
         position: relative;
         top: 20%;
+}
 }
