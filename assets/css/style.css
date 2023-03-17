@@ -198,48 +198,8 @@ b {
     text-decoration: underline;
 }
 
-/* contact page */
 
- 
-/*.contact-form-background {
-    background-image: url(../images/image-from-rawpixel-id-916602-jpeg.jpg);
-    background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load 
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;  
-}
-
-fieldset {
-    width: 50%;
-    height: 600px;
-    background: white;
-    position: relative;
-    top: 2%;
-    left: 22%;
-    margin-right: 0;
-    border: 5px double white;
-    border-radius: 5%;
-    
-}
-
-legend h2 {
-    font-size: 200%;
-}
-
- input {
-     width: 60%;
-     height: 40px;
-     position: relative;
-     left: 15%;
-     border-radius: 5%;
-     background-color: rgba(216, 194, 177, 0.1);
-
-}
-
-
-
-*/
+/* Contact page- form styling */
 
 .contact-form-background {
     background-image: url(../images/image-from-rawpixel-id-916602-jpeg.jpg);
@@ -270,6 +230,10 @@ input[type=reset] {
     padding: 10px;
     border: 2px solid rgb(138, 103, 48);
     background-color: rgba(216, 194, 177, 0.4);
+}
+
+ .use-entry:hover {
+    border:3px double black;
 }
 
 fieldset {
