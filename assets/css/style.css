@@ -211,6 +211,17 @@ b {
     width: 100%;  
 }
 
+fieldset {
+    width: 90%;
+    margin: 10% auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px 10px rgba(238, 233, 235, 0.966);
+    padding: 20px;
+    border: 2px solid white;
+    
+}
+
   
 input[type=text],
 input[type=email],
@@ -236,18 +247,12 @@ input[type=reset] {
     border:3px double black;
 }
 
-fieldset {
-    width: 90%;
-    margin: 10% auto;
-    border-radius: 5px;
-    background-color: white;
-    box-shadow: 0 0 10px 10px rgba(238, 233, 235, 0.966);
-    padding: 20px;
-    border: 2px solid white;
-    
+.use-entry:active {
+    box-shadow: 0 0 25px 10px rgb(216, 194, 177);
 }
- 
-
+.action-form:hover {
+    background-color: rgb(216, 194, 177);
+}
 
 
 /* footer */
