@@ -32,6 +32,7 @@ The user will hover over the image to reveal the back of the box showing the tex
 1. Set the scene flip-box (front/back)
 <img src="assets/images/hygge-life-box-one.png" alt="screenshot of hygge life first flip box from Tips page">
 This box will provide first step on how to prepare to live a hygge life. The value of this content is that the users will see they don't need to spend any money to start their journey.
+
 2. Get cosy flip-box (front/back)
 <img src="assets/images/hygge-life-box-two.png" alt="a screenshot of hygge life second flip box from tips page">
 This box will provide a second step, which is a few ideas of activities the users can do to calm their mind and enjoy life. The value of the content is that the users will see they don't have to follow any "fad news". They can continue on doing what makes them happy but need to start paying attention to being mindful whilst doing so.
@@ -40,7 +41,16 @@ This box will provide a second step, which is a few ideas of activities the user
 <img src="assets/images/hygge-life-box-three.png" alt="a screenshot of hygge life third flip box from tips page">
 This box will provide an additional support for users. Not only it will give them an interesting ideas on how to spend their day the hygge way so that they don't have to spend their valuable time on searching the internet, but also will provide support for independent businesses by showcasing their websites.<br>
 It provides a link to the Contact page, so that anyone who would like to have their work featured can get in touch, as well as a link to the website of the business we think is worth a mention.
-- Contact page
+- #### Contact page
 This page includes a contact form, users can get to this page by clicking "Contact" link in Nav bar from any other page or by clicking an envelope icon shown in box three within "Tips" page.
 The users will need to provide their name, surname and e-mail address before submitting a message. They can provide any details about the business or creative work they do if they would like to be mentioned on Hygge Life website.
 <img src="assets/images/hygge-life-contact-form.png" alt="a screenshot of hygge life contact page">
+
+---
+
+## Features left to implement
+
+- Inspirations 
+In the future I would like to create another page for the project showing an inspiration wall. This would be videos and different pages I'd like to embed within the page. Yoga practice, meditation, cooking classes, interior design ideas, day in life videos showing the users how others stay happy living life to the full. The users would benefit from the page simply by having easy access to all the above and also by being able to share what inspires them the most.
+
+
