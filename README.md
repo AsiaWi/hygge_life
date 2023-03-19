@@ -40,7 +40,7 @@ This box will provide a second step, which is a few ideas of activities the user
 <img src="assets/images/hygge-life-box-three.png" alt="a screenshot of hygge life third flip box from tips page">
 This box will provide an additional support for users. Not only it will give them an interesting ideas on how to spend their day the hygge way so that they don't have to spend their valuable time on searching the internet, but also will provide support for independent businesses by showcasing their websites.<br>
 It provides a link to the Contact page, so that anyone who would like to have their work featured can get in touch, as well as a link to the website of the business we think is worth a mention.
-
-
-
 - Contact page
+This page includes a contact form, users can get to this page by clicking "Contact" link in Nav bar from any other page or by clicking an envelope icon shown in box three within "Tips" page.
+The users will need to provide their name, surname and e-mail address before submitting a message. They can provide any details about the business or creative work they do if they would like to be mentioned on Hygge Life website.
+<img src="assets/images/hygge-life-contact-form.png" alt="a screenshot of hygge life contact page">
