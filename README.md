@@ -130,8 +130,8 @@
              <img src="assets/images/contact-page-wireframe.png" alt="image of contact page wireframe for medium to large screens">
              </li>
          </ul>
-         <li>Small screen wireframe
-         </li>
+        <li>Small screen wireframe
+        </li>
             <ul>
                 <li>Home page<br>
                  <img src="assets/images/home-page-small-screen-wireframe.png" alt="image of home page wireframe for small screens">
@@ -146,9 +146,19 @@
    </ul>
 <h2>TESTING</h2> 
     <h3>Responsiveness</h3>
+
     <h3>Accessibility</h3>
+    Each page checked with the help of WAVE Accessibility tool. Each page passes accesibility test with no error. 
+    CHECK THE ARIA LABEL REPEAT WARNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     <h3>Functional Testing</h3>
-    links nav bar footer and body
+       <ul>
+          <li>Navigation bar links</li>
+          All liks have been checked from each page to make sure they take us to correct page. All links work as expected.
+          <li>Links within the narrative</li>
+          Internal links checked to make sure they take us to correct page. All links work as expected. External links clicked on to check they open in new tab and take us to correct page. All links work as expected.
+          <li>Footer links</li>
+          All social media links checked from each page. All links work as expected, take us to correct page and open in new tab.
+        </ul>
     <h3>Validator testing</h3>
         <ul>
             <li>HTML
@@ -177,22 +187,24 @@
        </li>
        <li>google
        </li>
-       <li>Font Awesome
+       <li>Font Awesome - for all icons used.
+       </li>
+       <li>https://github.com/Gareth-McGirr/tacos-travels - for help with Readme.
        </li>
        <li>My mentor Daisy McGirr for all the help
        </li>
   </ul>
 <h2>TECHNOLOGIES</h2>
     <ul>
-    <li>Balsamiq</li>
+    <li>Balsamiq- used to create wireframes</li>
     <li>Github</li>
     <li>Gitpod</li>
     <li>HTML</li>
     <li>CSS</li>
-    <li>Tiny PNG</li>
-    <li>Wave Evaluation Tool</li>
-    <li>Techsini.com</li>
-    <li>W3C Validator</li>
+    <li>Tiny PNG- used to compress the size of images</li>
+    <li>Wave Evaluation Tool- used for checking accessibility</li>
+    <li>Techsini.com- used for creating mockup image</li>
+    <li>W3C Validator- used for checking HTML and CSS for errors</li>
 
 
 
