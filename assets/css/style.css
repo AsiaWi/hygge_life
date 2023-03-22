@@ -150,7 +150,7 @@ b {
 
 .flip-box {
     background-color: transparent;
-    height: 350px;
+    height: 400px; /*250px*/
     width: 100%;
     margin: 5% 15%;
     margin-left: 0%;
@@ -296,7 +296,7 @@ footer a {
 
 .flip-box {
     background-color: transparent;
-    height: 400px;
+    height: 400px; /*250*/
     width: 30%;
     margin: 5% 1%;
     display: inline-block;
@@ -318,4 +318,11 @@ footer a {
         position: relative;
         top: 20%;
 }
+/*.flip-box {
+    background-color: transparent;
+    height: 250px;
+    width: 380px;
+    margin: 0 auto;
+    display: block;
+}*/
 }

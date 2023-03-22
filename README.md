@@ -146,8 +146,7 @@
    </ul>
 <h2>TESTING</h2> 
     <h3>Responsiveness</h3>
-
-    <h3>Accessibility</h3>
+    ,<h3>Accessibility</h3>
     Each page checked with the help of WAVE Accessibility tool. Each page passes accesibility test with no error. 
     CHECK THE ARIA LABEL REPEAT WARNING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     <h3>Functional Testing</h3>
