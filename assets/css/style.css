@@ -148,19 +148,33 @@ b {
 
 /* tips page flip box styling */
 
+#one-two-three-heading {
+    text-align: center;
+    font-size: 160%;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+#one-two-three-heading-two {
+    text-align: center;
+    font-weight: 30;
+    margin-top: 2px;
+
+}
+
 .flip-box {
     background-color: transparent;
-    height: 400px;
-    width: 100%;
-    margin: 5% 15%;
-    margin-left: 0%;
-
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .flip-box-inner {                              
-    height: 100%;
-    width: 100%;
+    height: 400px;
+    width: 400px;
     position: relative;
     transition: 1.4s; 
     text-align: center;
@@ -183,7 +197,7 @@ b {
 }
 
 .flip-box-front img {
-    width:100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -193,6 +207,11 @@ b {
     transform: rotateX(180deg);
 }
 
+.flip-box-back p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .flip-box-back a {
     color:rgb(138, 103, 48);
     text-decoration: none;
@@ -264,7 +283,7 @@ input[type=reset] {
 #contact-form-confirmation {
     height: 100vh;
     width: 100%;
-    background-color: rgba(216, 194, 177, 0.4);
+    background-color: rgba(79, 35, 1, 0.15);
     background-size: cover;
     position: fixed;
     top: 70px;
@@ -275,11 +294,11 @@ input[type=reset] {
     height: 80%;
     border-radius: 30%;
     background-color: rgba(255, 255, 255, 0.911);
-    margin: 1% auto;
+    margin: 0 auto;
 }
 
-#confirmation-text-background h1,
 #confirmation-text-background h2,
+#confirmation-text-background h3,
 #confirmation-text-background p {
     text-align: center;
     position: relative;
@@ -324,41 +343,35 @@ footer a {
 }
 
 
-
-
-/* for medium and large screen sizes from 850px wide and up */
-
-@media screen and (min-width: 850px) {
-
-.flip-box {
-    background-color: transparent;
-    height: 400px;
-    width: 30%;
-    margin: 5% 1%;
-    display: inline-block;
-}
-    
-    fieldset {
-        width: 50%;
-
-}
-
-}
-
 /* for small to medium screen sizes from 450px wide and up */
 
 @media screen and (min-width: 450px) {
-
     .container-text {
         text-align: center;
         position: relative;
         top: 20%;
 }
-/*.flip-box {
-    background-color: transparent;
-    height: 250px;
-    width: 380px;
-    margin: 0 auto;
-    display: block;
-}*/
 }
+
+
+/* for medium and large screen sizes from 850px wide and up */
+
+@media screen and (min-width: 850px) {
+    fieldset {
+        width: 50%;
+
+}
+}
+
+/* for large screen sizes from 1250px wide and up */
+
+@media screen and (min-width: 1250px) {
+    .flip-box {
+        background-color: transparent;
+        height: 400px;
+        width: 30%;
+        margin: 2% 1%;
+        display: inline-block;
+    }
+}
+
