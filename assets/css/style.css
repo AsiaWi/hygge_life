@@ -232,10 +232,10 @@ input[type=email],
 textarea           {
     width: 100%;
     padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px 10px rgba(184, 95, 27, 0.4);
-    box-sizing: border-box;
     border: 2px solid rgb(216, 194, 177);
+    border-radius: 10px;
+    box-shadow: 0 0 15px 10px rgba(216, 194, 177, 0.4);
+    box-sizing: border-box;
 }
 
 
@@ -245,6 +245,7 @@ input[type=reset] {
     padding: 10px;
     border: 2px solid rgb(138, 103, 48);
     background-color: rgba(216, 194, 177, 0.4);
+    color: black; /*safari*/
 }
 
  .use-entry:hover {
@@ -258,6 +259,37 @@ input[type=reset] {
     background-color: rgb(216, 194, 177);
 }
 
+/* confirmation thank you page received when user submits form */
+
+#contact-form-confirmation {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(216, 194, 177, 0.4);
+    background-size: cover;
+    position: fixed;
+    top: 70px;
+}
+
+#confirmation-text-background {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.911);
+    margin: 3% auto;
+}
+
+#confirmation-text-background h1,
+#confirmation-text-background h2,
+#confirmation-text-background p {
+    text-align: center;
+    position: relative;
+    top: 35%;
+}
+
+#confirmation-text-background p {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
 
 /* footer */
 
@@ -299,11 +331,10 @@ footer a {
 
 .flip-box {
     background-color: transparent;
-    height: auto; /*250*/
+    height: 400px;
     width: 30%;
     margin: 5% 1%;
-    /*display: inline-block;*/
-    justify-content: center;
+    display: inline-block;
 }
     
     fieldset {
