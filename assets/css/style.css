@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
- /*font used */
+ /*font used imported from google fonts*/
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -43,6 +43,7 @@ nav ul {
     padding: 0;
     margin: 0 auto;
 }
+
 nav li {
     list-style-type: none;
     display: inline-block;
@@ -53,6 +54,7 @@ nav a {
     margin-right: 10px;
     
 }
+
 nav a:hover {
     border: 2px solid rgba(216, 194, 177, 0.4);
     background-color: rgba(218, 202, 177, 0.2);
@@ -64,6 +66,7 @@ nav a:hover {
     background-color: rgba(218, 202, 177, 0.4);
     border-radius: 15%;
 }
+
 /* hero image section */
 
 .hero-image {
@@ -142,24 +145,27 @@ b {
     text-decoration: none;
     color:rgb(138, 103, 48)
 } 
+
 .container-text a:hover {
     text-decoration: underline;
 }
 
-/* tips page flip box styling */
+/* guide page */
 
 #one-two-three-heading {
     text-align: center;
     font-size: 160%;
-    font-weight: 500;
+    font-weight: 700;
     margin-bottom: 2px;
 }
-#one-two-three-heading-two {
+
+#tap-message {
     text-align: center;
     font-weight: 30;
     margin-top: 2px;
-
 }
+
+/* flip box code taken from https://www.w3schools.com/howto/howto_css_flip_box.asp */
 
 .flip-box {
     background-color: transparent;
@@ -171,7 +177,6 @@ b {
     align-items: center;
 }
 
-
 .flip-box-inner {                              
     height: 400px;
     width: 400px;
@@ -181,11 +186,12 @@ b {
     transform-style: preserve-3d;
    
 }
-
+/* vertical flip */
 .flip-box:hover .flip-box-inner {
     transform: rotateX(180deg);
     cursor: pointer;
 }
+/* front and back styling */
 
 .flip-box-front, .flip-box-back {
     width: 100%;
@@ -195,12 +201,11 @@ b {
     backface-visibility: hidden;
     text-align: center;
 }
-
+/* front image sizing */
 .flip-box-front img {
     width: 100%;
     height: 100%;
 }
-
 
 .flip-box-back {
     background-color: rgba(216, 194, 177, 0.4);
