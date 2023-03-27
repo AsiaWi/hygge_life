@@ -150,7 +150,7 @@ b {
 
 .flip-box {
     background-color: transparent;
-    height: auto; /*250px*/
+    height: 400px;
     width: 100%;
     margin: 5% 15%;
     margin-left: 0%;
@@ -233,7 +233,7 @@ textarea           {
     width: 100%;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 15px 10px rgba(216, 194, 177, 0.4);
+    box-shadow: 0 0 15px 10px rgba(184, 95, 27, 0.4);
     box-sizing: border-box;
     border: 2px solid rgb(216, 194, 177);
 }
