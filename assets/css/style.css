@@ -150,7 +150,7 @@ b {
 
 .flip-box {
     background-color: transparent;
-    height: 400px; /*250px*/
+    height: auto; /*250px*/
     width: 100%;
     margin: 5% 15%;
     margin-left: 0%;
@@ -235,7 +235,7 @@ textarea           {
     border-radius: 10px;
     box-shadow: 0 0 15px 10px rgba(216, 194, 177, 0.4);
     box-sizing: border-box;
-    border: none;
+    border: 2px solid rgb(216, 194, 177);
 }
 
 
@@ -266,6 +266,9 @@ footer {
     width: 100%;
     margin: 0 auto;
     border-top: 2px inset rgb(166, 159, 159);
+    position: fixed;
+    bottom: 0;
+    background-color: white;
     
 }
 
@@ -296,10 +299,11 @@ footer a {
 
 .flip-box {
     background-color: transparent;
-    height: 400px; /*250*/
+    height: auto; /*250*/
     width: 30%;
     margin: 5% 1%;
-    display: inline-block;
+    /*display: inline-block;*/
+    justify-content: center;
 }
     
     fieldset {
