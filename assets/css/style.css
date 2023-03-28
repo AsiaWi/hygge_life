@@ -230,7 +230,7 @@ b {
 /* Contact page- form styling */
 
 .contact-form-background {
-    background-image: url(../images/image-from-rawpixel-id-916602-jpeg.jpg);
+    background-image: url(../images/background_contact_page.jpg);
     background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load */
     background-repeat: no-repeat;
     overflow: hidden;
