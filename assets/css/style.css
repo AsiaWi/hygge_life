@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 
- /*font used imported from google fonts*/
+/*font used imported from google fonts*/
 
 body {
     font-family: "Montserrat", sans-serif;
-  
-} 
+
+}
 
 h2 {
     font-family: "montserrat", sans-serif;
     font-size: 130%;
     text-align: center;
 }
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 
 /* header styling */
 
@@ -27,15 +42,15 @@ h1 {
 
 header a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 /*navigation links */
 
 nav {
-     margin: 0 auto;
-     padding-bottom: 3px;
-     border-bottom: 2px inset rgb(166, 159, 159);
+    margin: 0 auto;
+    padding-bottom: 3px;
+    border-bottom: 2px inset rgb(166, 159, 159);
 }
 
 nav ul {
@@ -48,11 +63,12 @@ nav li {
     list-style-type: none;
     display: inline-block;
 }
+
 nav a {
     text-decoration: none;
-    color:black;
+    color: black;
     margin-right: 10px;
-    
+
 }
 
 nav a:hover {
@@ -80,7 +96,7 @@ nav a:hover {
     height: 500px;
     margin: 0;
     padding: 0;
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .hero-text-background {
@@ -94,20 +110,21 @@ nav a:hover {
     top: 40%;
     left: 10%;
 }
-  /* text inside circle div on hero image */
+
+/* text inside circle div on hero image */
 .text {
     position: relative;
     top: 32%;
     left: 0%;
 }
 
-.text > h2,
-.text > h3 {
+.text>h2,
+.text>h3 {
     font-size: 100%;
     font-weight: 650;
     font-style: italic;
 }
- 
+
 em {
     font-size: 110%;
     letter-spacing: 2px;
@@ -125,7 +142,7 @@ b {
     letter-spacing: 2px;
 }
 
- /* used for what is hygge and about sections */
+/* used for what is hygge and about sections */
 
 .container {
     background-color: rgba(218, 202, 177, 0.3);
@@ -143,8 +160,8 @@ b {
 
 .container-text a {
     text-decoration: none;
-    color:rgb(138, 103, 48)
-} 
+    color: rgb(138, 103, 48)
+}
 
 .container-text a:hover {
     text-decoration: underline;
@@ -177,30 +194,40 @@ b {
     align-items: center;
 }
 
-.flip-box-inner {                              
-    height: 400px;
-    width: 400px;
+/* padding between image two and three, to match the gap between image one and two, due to white frame around image one */
+#image-three {
+    padding-top: 8px;
+}
+
+.flip-box-inner {
+    min-height: 300px;
+    min-width: 350px;
     position: relative;
-    transition: 1.4s; 
+    transition: 1.4s;
     text-align: center;
     transform-style: preserve-3d;
-   
+
 }
+
 /* vertical flip */
 .flip-box:hover .flip-box-inner {
     transform: rotateX(180deg);
     cursor: pointer;
 }
+
 /* front and back styling */
 
-.flip-box-front, .flip-box-back {
+.flip-box-front,
+.flip-box-back {
     width: 100%;
     height: 100%;
     position: absolute;
-    -webkit-backface-visibility: hidden; /*Safari*/
+    -webkit-backface-visibility: hidden;
+    /*Safari*/
     backface-visibility: hidden;
     text-align: center;
 }
+
 /* front image sizing */
 .flip-box-front img {
     width: 100%;
@@ -214,11 +241,13 @@ b {
 
 .flip-box-back p {
     text-align: center;
+    font-size: 95%;
     padding-left: 50px;
     padding-right: 50px;
 }
+
 .flip-box-back a {
-    color:rgb(138, 103, 48);
+    color: rgb(138, 103, 48);
     text-decoration: none;
 }
 
@@ -231,12 +260,13 @@ b {
 
 .contact-form-background {
     background-image: url(../images/background_contact_page.jpg);
-    background-color:rgba(216, 194, 177, 0.4); /*if image doesn't load */
+    background-color: rgba(216, 194, 177, 0.4);
+    /*if image doesn't load */
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
     height: 150vh;
-    width: 100%;  
+    width: 100%;
 }
 
 fieldset {
@@ -247,13 +277,13 @@ fieldset {
     box-shadow: 0 0 10px 10px rgba(238, 233, 235, 0.966);
     padding: 20px;
     border: 2px solid white;
-    
+
 }
 
-  
+
 input[type=text],
 input[type=email],
-textarea           {
+textarea {
     width: 100%;
     padding: 15px;
     border: 2px solid rgb(216, 194, 177);
@@ -269,16 +299,18 @@ input[type=reset] {
     padding: 10px;
     border: 2px solid rgb(138, 103, 48);
     background-color: rgba(216, 194, 177, 0.4);
-    color: black; /*safari*/
+    color: black;
+    /*safari*/
 }
 
- .use-entry:hover {
-    border:3px double black;
+.use-entry:hover {
+    border: 3px double black;
 }
 
 .use-entry:active {
     box-shadow: 0 0 25px 10px rgb(216, 194, 177);
 }
+
 .action-form:hover {
     background-color: rgb(216, 194, 177);
 }
@@ -286,12 +318,10 @@ input[type=reset] {
 /* confirmation thank you page received when user submits form */
 
 #contact-form-confirmation {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: rgba(79, 35, 1, 0.15);
     background-size: cover;
-    position: fixed;
-    top: 70px;
 }
 
 #confirmation-text-background {
@@ -300,6 +330,8 @@ input[type=reset] {
     border-radius: 30%;
     background-color: rgba(255, 255, 255, 0.911);
     margin: 0 auto;
+    position: relative;
+    top: 5%;
 }
 
 #confirmation-text-background h2,
@@ -307,7 +339,8 @@ input[type=reset] {
 #confirmation-text-background p {
     text-align: center;
     position: relative;
-    top: 30%;
+    top: 25%;
+    margin-top: 0;
 }
 
 #confirmation-text-background p {
@@ -323,10 +356,9 @@ footer {
     width: 100%;
     margin: 0 auto;
     border-top: 2px inset rgb(166, 159, 159);
-    position: fixed;
-    bottom: 0;
     background-color: white;
-    
+    flex-shrink: 0;
+
 }
 
 footer li {
@@ -355,28 +387,36 @@ footer a {
         text-align: center;
         position: relative;
         top: 20%;
-}
-}
-
-
-/* for medium and large screen sizes from 850px wide and up */
-
-@media screen and (min-width: 850px) {
-    fieldset {
-        width: 50%;
-
-}
-}
-
-/* for large screen sizes from 1250px wide and up */
-
-@media screen and (min-width: 1250px) {
-    .flip-box {
-        background-color: transparent;
-        height: 400px;
-        width: 30%;
-        margin: 2% 1%;
-        display: inline-block;
     }
-}
 
+    .flip-box-inner {
+        width: 400px;
+        height: 350px;
+    }
+
+    .flip-box-back p {
+        text-align: center;
+        font-size: 100%;
+    }
+
+
+    /* for medium and large screen sizes from 850px wide and up */
+
+    @media screen and (min-width: 850px) {
+        fieldset {
+            width: 50%;
+
+        }
+    }
+
+    /* for large screen sizes from 1250px wide and up */
+
+    @media screen and (min-width: 1250px) {
+        .flip-box {
+            background-color: transparent;
+            height: 400px;
+            width: 30%;
+            margin: 2% 1%;
+            display: inline-block;
+        }
+    }
