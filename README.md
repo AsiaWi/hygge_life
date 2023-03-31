@@ -53,6 +53,11 @@ The users will need to provide their: name, surname and e-mail address before su
 ![contact_page](assets/docs/hygge-life-contact-form.png)
 * When sending a message through the contact form, user will be taken to confirmation; thankyou.html page, informing of successful submission.
 ![thankyou_page](assets/docs/hygge-life-thankyou-page.png)
+
+### 404 ERROR PAGE NOT FOUND
+* This page will show for a user if wrong link for the page is entered. 
+* The benefit of the page is that customer get's clear instructions with a link to go back to home page. User won't have to use browsers back button. Another link is also provided in case any link provided within page has an error, user can send us a message to fix it.
+![404_page](assets/docs/hygge-life-404-page.png)
 ### Features left to implement
 * Contact page- in the future I would like to update contact form so that it is a working feature. At the moment no javascript has been applied. 
 * Inspirations- in the future I would like to create another page for the project showing an inspiration wall. This would be videos and different pages I'd like to embed within the page. Yoga practice, meditation, cooking classes, interior design ideas, day in life videos showing the users how others stay happy living life to the fullest. The users would benefit from the page simply by having easy access to all the above and also by being able to share what inspires them the most.
