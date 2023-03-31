@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-
 /*font used imported from google fonts*/
 
-body {
-    font-family: "Montserrat", sans-serif;
-
-}
-
-h2 {
-    font-family: "montserrat", sans-serif;
-    font-size: 130%;
-    text-align: center;
-}
 
 html,
 body {
@@ -22,6 +10,7 @@ body {
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Montserrat", sans-serif;
 }
 
 main {
@@ -30,7 +19,6 @@ main {
 
 
 /* header styling */
-
 h1 {
     font-family: "Montserrat", sans-serif;
     font-size: 160%;
@@ -45,8 +33,13 @@ header a {
     color: black;
 }
 
-/*navigation links */
+h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 130%;
+    text-align: center;
+}
 
+/*navigation links */
 nav {
     margin: 0 auto;
     padding-bottom: 3px;
@@ -84,7 +77,6 @@ nav a:hover {
 }
 
 /* hero image section */
-
 .hero-image {
     background-image: url("../images/hygge.jpg");
     background-attachment: scroll;
@@ -132,7 +124,6 @@ em {
 
 
 /* what is hygge section below hero image*/
-
 .intro-outer {
     height: 250px;
     width: 100%;
@@ -143,7 +134,6 @@ b {
 }
 
 /* used for what is hygge and about sections */
-
 .container {
     background-color: rgba(218, 202, 177, 0.3);
     height: 200px;
@@ -157,7 +147,6 @@ b {
 }
 
 /* About section */
-
 .container-text a {
     text-decoration: none;
     color: rgb(138, 103, 48)
@@ -168,7 +157,6 @@ b {
 }
 
 /* guide page */
-
 #one-two-three-heading {
     text-align: center;
     font-size: 160%;
@@ -183,7 +171,6 @@ b {
 }
 
 /* flip box code taken from https://www.w3schools.com/howto/howto_css_flip_box.asp */
-
 .flip-box {
     background-color: transparent;
     height: auto;
@@ -216,7 +203,6 @@ b {
 }
 
 /* front and back styling */
-
 .flip-box-front,
 .flip-box-back {
     width: 100%;
@@ -257,7 +243,6 @@ b {
 
 
 /* Contact page- form styling */
-
 .contact-form-background {
     background-image: url(../images/background_contact_page.jpg);
     background-color: rgba(216, 194, 177, 0.4);
@@ -316,7 +301,6 @@ input[type=reset] {
 }
 
 /* confirmation thank you page received when user submits form */
-
 #contact-form-confirmation {
     height: 100%;
     width: 100%;
@@ -350,7 +334,6 @@ input[type=reset] {
 }
 
 /* footer */
-
 footer {
     height: 50px;
     width: 100%;
@@ -381,7 +364,6 @@ footer a {
 
 
 /* for small to medium screen sizes from 450px wide and up */
-
 @media screen and (min-width: 450px) {
     .container-text {
         text-align: center;
@@ -401,7 +383,6 @@ footer a {
 
 
     /* for medium and large screen sizes from 850px wide and up */
-
     @media screen and (min-width: 850px) {
         fieldset {
             width: 50%;
@@ -410,10 +391,8 @@ footer a {
     }
 
     /* for large screen sizes from 1250px wide and up */
-
     @media screen and (min-width: 1250px) {
         .flip-box {
-            background-color: transparent;
             height: 400px;
             width: 30%;
             margin: 2% 1%;

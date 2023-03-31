@@ -182,10 +182,9 @@ No errors were found when passing through the official Jigsaw W3 Validator
 The website was developed through Visual Studio Editor 
 
 Code has been pushed with git commands to remote repository on Github with commands:
-
-git add . - to add files ready to commit
-git commit -m "message" - to commit the code to local repository ready to be pushed
-git push - final command used to push commited code to remote repo on Github
+* git add . - to add files ready to commit
+* git commit -m "message" - to commit the code to local repository ready to be pushed
+* git push - final command used to push commited code to remote repo on Github
 
 ## CLONING THE REPOSITORY
 
