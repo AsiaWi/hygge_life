@@ -300,15 +300,15 @@ input[type=reset] {
     background-color: rgb(216, 194, 177);
 }
 
-/* confirmation thank you page received when user submits form */
-#contact-form-confirmation {
+/* confirmation thank you page received when user submits form/ also used for 404 page styling */
+.contact-form-confirmation {
     height: 100%;
     width: 100%;
     background-color: rgba(79, 35, 1, 0.15);
     background-size: cover;
 }
 
-#confirmation-text-background {
+.confirmation-text-background {
     width: 90%;
     height: 80%;
     border-radius: 30%;
@@ -318,16 +318,16 @@ input[type=reset] {
     top: 5%;
 }
 
-#confirmation-text-background h2,
-#confirmation-text-background h3,
-#confirmation-text-background p {
+.confirmation-text-background h2,
+.confirmation-text-background h3,
+.confirmation-text-background p {
     text-align: center;
     position: relative;
     top: 25%;
     margin-top: 0;
 }
 
-#confirmation-text-background p {
+.confirmation-text-background p {
     font-size: 30px;
     letter-spacing: 1px;
     margin: 5px;
