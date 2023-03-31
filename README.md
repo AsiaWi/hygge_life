@@ -71,7 +71,7 @@ The users will need to provide their: name, surname and e-mail address before su
              ![guide_page](assets/docs/guide-page-wireframe.png)
      * Contact page
              ![contact_page](assets/docs/contact-page-wireframe.png)
-     * Thank you page
+     * Thank you page / wireframe also used for 404 error page
              ![thankyou_page](assets/docs/thankyou-page-wireframe.png)
 * Small screen wireframe
      * Home page
@@ -80,7 +80,7 @@ The users will need to provide their: name, surname and e-mail address before su
                ![guide_page](assets/docs/guide-page-small-screen-wireframe.png)
      * Contact page
                ![contact_page](assets/docs/contact-page-small-screen-wireframe.png)
-     * Thank you page
+     * Thank you page / same wireframe used for 404 error page
              ![thankyou_page](assets/docs/thankyou-page-small-screen-wireframe.png)
 ## TESTING
 
