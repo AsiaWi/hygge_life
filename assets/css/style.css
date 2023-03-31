@@ -32,7 +32,6 @@ header a {
     text-decoration: none;
     color: black;
 }
-
 h2 {
     font-family: "montserrat", sans-serif;
     font-size: 130%;
@@ -380,18 +379,19 @@ footer a {
         text-align: center;
         font-size: 100%;
     }
+}
 
 
-    /* for medium and large screen sizes from 850px wide and up */
-    @media screen and (min-width: 850px) {
+/* for medium and large screen sizes from 850px wide and up */
+@media screen and (min-width: 850px) {
         fieldset {
             width: 50%;
 
         }
     }
 
-    /* for large screen sizes from 1250px wide and up */
-    @media screen and (min-width: 1250px) {
+/* for large screen sizes from 1250px wide and up */
+@media screen and (min-width: 1250px) {
         .flip-box {
             height: 400px;
             width: 30%;
