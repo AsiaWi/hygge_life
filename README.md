@@ -188,14 +188,32 @@ git commit -m "message" - to commit the code to local repository ready to be pus
 git push - final command used to push commited code to remote repo on Github
 
 ## CLONING THE REPOSITORY
-For details on how to clone the remote repo in order to create a local copy for own use, please go to 
+
+1. On Github navigate to repository
+2. Click "Code" a green button shown right above the file list
+3. Copy the URL of the repo using HTTPS, SSH OR Github CLI
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory
+6. Type git clone, and then paste the URL you copied earlier
+7. Press enter to create local Clone
+
+For more details on how to clone the remote repo in order to create a local copy for own use, please go to 
 https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
 ## FORKING
-For details on how to fork the repo, in order to for example suggest any changes to the project you can visit: 
+1. On Github navigate to repository
+2. click "Fork" located towards the top right corner
+3. Select "owner" for the forked repo, from the dropdown menu under "owner" Under "Owner"
+4. It will create forked repo under the same name as orinial by default but you can type a name in "Repository name" or add a description in "Description" box.
+5. Click "Create fork" !
+
+Forking allows you to make any changes without affecting original project. You can send the suggestions over by submitting pull request. Project owner can review the pull request before accepting the suggestions and merging them.
+
+
+For more details on how to fork the repo, in order to for example suggest any changes to the project you can visit: 
 https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
-Forking allows you to make any changes and send the suggestions over by submitting pull request. Project owner can review the pull request before accepting the suggestions and merging them.
+When you have fork to a repository you don't have access to files locally on your device, for this you will need to clone the forked repo.
 
 ## DEPLOYMENT
 The site was deployed to GitHub Pages.
