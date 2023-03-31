@@ -71,7 +71,7 @@ The users will need to provide their: name, surname and e-mail address before su
 * Small screen wireframe
      * Home page
                ![home_page](assets/docs/home-page-small-screen-wireframe.png)
-      * Guide page
+     * Guide page
                ![guide_page](assets/docs/guide-page-small-screen-wireframe.png)
      * Contact page
                ![contact_page](assets/docs/contact-page-small-screen-wireframe.png)
@@ -82,7 +82,7 @@ The users will need to provide their: name, surname and e-mail address before su
 ### Responsiveness
 Website has been checked for responsiveness through Development tools. In order to do this, the following steps have been taken:
 1. Open browser
-2. Navigate to Hygge Life https://asiawi.github.io/hygge_life/index.html
+2. Navigate to Hygge Life https://asiawi.github.io/hygge_life/
 3. Right click anywhere on the page and go to "Inspect" to open Development Tools
 4. Click on drop down menu: "Dimensions: Responsive" and choose "Responsive"
 5. Drag the side of the screen and change screen size, make sure the website looks good from 320px and up. Make sure no side 
@@ -134,7 +134,7 @@ Manual testing performed, to ensure website performs well on different browsers 
 ![contact_page](assets/docs/lighthouse_contact_page_mobile.png)
 ### Functional Testing
 * Navigation bar links
-    * All liks have been checked from each page to make sure they take us to correct page. All links work as expected.
+    * All links have been checked from each page to make sure they take us to correct page. All links work as expected.
 
 |NAVIGATION LINK| DESTINATION PAGE|
 |---------------|-----------------|
