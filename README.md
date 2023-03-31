@@ -94,7 +94,7 @@ Website has been checked for responsiveness through Development tools. In order 
    scroll bar is showing.
 
 * Expected- page is user friendly when viewing the website on small and large screens.
-* Actual- After using flex-box to guide page, website looks good and images don't stretch, user can read full text on the back of flip-boxes. Website now is user friendly on all screen sizes.
+* Actual- After using flex-box to guide page and changing image width to 300 for small screens, website looks good, no bottom scroll bar showing and images don't stretch, user can read full text on the back of flip-boxes. Website now is user friendly on all screen sizes.
 
 * The following devices have been used to check responsiveness:
     * Iphone 13 Pro
@@ -127,6 +127,9 @@ Manual testing performed, to ensure website performs well on different browsers 
     * Asus Vivobook
          * Issue: Contact form won't show any contrast for box-shadowing for each input for iphone users due to using Safari.
          * Fix: I have changed the border for each input to more contrasting colour so that users can see each input line when filling in a form. Fix has been succesful. 
+
+         * Issue: bottom scroll bar shown at the bottom of guide.html page for screens below 400
+         * Fix: I have changed image width to min:300 for small screens and added media query to extend that width sooner. No bottom scroll bar showing now.
 ### Lighthouse
 * HOME PAGE (desktop/ mobile)
 ![home_page_desktop](assets/docs/lighthouse_home_page_desktop.png)
