@@ -333,6 +333,11 @@ input[type=reset] {
     margin: 5px;
 }
 
+#error-message {
+    font-size: 16px;
+    margin: 5px; 
+} 
+
 /* footer */
 footer {
     height: 50px;
