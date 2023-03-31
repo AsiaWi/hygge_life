@@ -78,7 +78,7 @@ nav a:hover {
 
 /* hero image section */
 .hero-image {
-    background-image: url("../images/hygge.jpg");
+    background-image: url("../images/hygge-hero-image.webp");
     background-attachment: scroll;
     background-position: right 35% top 20%;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ b {
     margin-bottom: 2px;
 }
 
-#tap-message {
+#select-message {
     text-align: center;
     font-weight: 30;
     margin-top: 2px;
@@ -244,7 +244,7 @@ b {
 
 /* Contact page- form styling */
 .contact-form-background {
-    background-image: url(../images/background_contact_page.jpg);
+    background-image: url(../images/background_contact_page.webp);
     background-color: rgba(216, 194, 177, 0.4);
     /*if image doesn't load */
     background-repeat: no-repeat;
